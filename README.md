@@ -1,6 +1,7 @@
 # Self-Painting-Bot
 
 Dragging the Mouse 
+
 Dragging means moving the mouse while holding down one of the mouse buttons. For example, you can move files between folders by dragging the folder icons, or you can move appointments around in a calendar app.
 
 When you run this program, there will be a five-second delay ❶ for you to move the mouse cursor over the drawing program’s window with the Pencil or Brush tool selected. Then spiralDraw.py will take control of the mouse and click to put the drawing program in focus ❷. A window is in focus when it has an active blinking cursor, and the actions you take—like typing or, in this case, dragging the mouse—will affect that window. Once the drawing program is in focus, spiralDraw.py draws a square spiral pattern like
